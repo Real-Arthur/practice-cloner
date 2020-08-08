@@ -13,7 +13,7 @@ body {
   width: 100vw;
 }
 
-.box_button {
+#box_button {
   position: absolute;
   top: 0;
 }
@@ -25,5 +25,11 @@ position: absolute;
 bottom: 0;
 display: inline-grid;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: auto mixmax(50px, 50px);
+grid-template-rows: auto;
+}
+
+#box_item {
+  border-style: dashed;
+  background-color: red;
+  color: white;
 }
